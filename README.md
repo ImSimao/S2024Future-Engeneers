@@ -20,10 +20,10 @@ _This part must be filled by participants with the technical clarifications abou
 
 Our Code is divided into 4 main stages:
 
-    1. It starts by moving forward, while dodging the obstacles, until it reaches the first line, there it will recognize if the round is clockwise or counter-clockwise..
-    2. Then it knows which way to turn, so it will count the lines of the same color and do the first two laps in that direction..
-    3. After 8 lines of the same color, it will invert the orientation of the lap if the last obstacle was color is red or continue as it was in the last lap if it was green.
-    4. Then to finish the round it will go seek the parking lot by following the outerwall until it finds the right spot.
+1. It starts by moving forward, while dodging the obstacles, until it reaches the first line, there it will recognize if the round is clockwise or counter-clockwise..
+2. Then it knows which way to turn, so it will count the lines of the same color and do the first two laps in that direction..
+3. After 8 lines of the same color, it will invert the orientation of the lap if the last obstacle was color is red or continue as it was in the last lap if it was green.
+4. Then to finish the round it will go seek the parking lot by following the outerwall until it finds the right spot.
 
 ### The Code: Setup and Compilation
 
@@ -67,4 +67,5 @@ We also use 1 bit to indicate if it is seeing the parking spot (looking for the 
 ![image-4](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/01a50bb5-30b4-47e4-b01a-9622dfa00204)
 
 Sending the bits to the main processor.
+
 ![image-5](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/27db3bc9-0aad-4b0b-8cb9-a3b1d78d663e)
