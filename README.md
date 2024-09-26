@@ -16,7 +16,7 @@ This repository contains engineering materials of a self-driven vehicle from the
 
 _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
-### The Code
+#### The Code
 
 Our Code is divided into 4 main stages:
 
@@ -25,7 +25,7 @@ Our Code is divided into 4 main stages:
 3. After 8 lines of the same color, it will invert the orientation of the lap if the last obstacle was color is red or continue as it was in the last lap if it was green.
 4. Then to finish the round it will go seek the parking lot by following the outerwall until it finds the right spot.
 
-### The Code: Setup and Compilation
+#### The Code: Setup and Compilation
 
 To program, complile and upload the code to the robot we use the picaxe IDE, which is based in basic.
 When the IDE is run, it asks for the picaxe version, and the cable port.
@@ -36,9 +36,9 @@ The processors communicate with each other through bits.
 The picaxe IDE can be found at https://www.picaxe.com/
 It is also needed to install de drivers so it can recognize the cable used for programming, they can also be found at the picaxe website.
 
-### The Code: Explained
+#### The Code: Explained
 
-### The Code: Camera
+#### The Code: Camera
 
 For the camera we use an OpenMV H7 camera and to program it and calibrate it we use the OpenMV IDE.
 All the libraries required are present in the OpenMV IDE.
