@@ -85,8 +85,7 @@ The robot is powered by four batteries, one of which is a separate power source 
 ## Sensors Management
 We chose to use a camera to detect obstacles and the car park, equipping it with a lens that widens the field of view, which solved the difficulties in detecting two consecutive obstacles in a corner. In addition, we incorporated three infrared sensors (Sharp) on the front of the robot: one on each side and one in the centre, capable of measuring the distance to objects by emitting and receiving infrared light. To increase the robot's obstacle detection range, we also added a sonar sensor in the centre of the robot, which measures distances by emitting and receiving sound waves. To identify the colours of the blue and orange lines on the carpet, we used an RGB (red, green and blue) colour sensor, which allows the robot to determine the direction of the race and its position on the laps.
 
-![Capturar 31](https://github.com/user-attachments/assets/7ee6f0ec-3260-4502-8049-3d7fb99547a8)  ![Capturar 30](https://github.com/user-attachments/assets/f7eb1c08-10d4-40f8-bfdb-201d6160e983) ![Capturar 29](https://github.com/user-attachments/assets/c1dc1206-2126-4b86-82fc-2e8ac7e65383)
-
+![Capturar 31](https://github.com/user-attachments/assets/7ee6f0ec-3260-4502-8049-3d7fb99547a8)
 ## Obstacle Management
 With regard to obstacle detection, the robot uses the camera with the magnifying lens to identify obstacles, as well as locating the walls of the car park. We have implemented a strategy that allows the robot to bypass obstacles as soon as it detects them, moving to the right if the obstacle is red and to the left if it is green.
 
