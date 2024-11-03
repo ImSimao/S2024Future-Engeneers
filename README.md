@@ -44,19 +44,24 @@ The picaxe IDE can be found at https://www.picaxe.com/ it is also needed to inst
 #### The Code: Camera
 For the camera we use an OpenMV H7 camera and to program it and calibrate it we use the OpenMV IDE. All the libraries required are present in the OpenMV IDE.
 In the beginning of the code we initialize the libraries used for the camera The variable screen_division is used to divide the screen in X sections, for example X=3, the screen will be divided and only the bottom 2/3 of the screen will be used to track the obstacles. Then we initialized the variables green_blobs, red_blobs and pink_blobs. The blobs refer to the colour detected by the camera and their position in the screen. Each bracket represents the colour code seen by the camera, there are a few parameters because of the different angles that the camera can see the obstacles.
+
 ![image-1](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/9489eefc-0b76-4a14-9abd-41e0db21dbad)
 
 These thresholds can be obtained from the menu tools/machine vision/Threshold Editor.
+
 ![image-2](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/f75615b1-dae2-49ad-97c5-3d0919cb3b93)
 
 Then we adjust the sliders to track just the object that we want to track.
+
 ![image-3](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/96aa8b7e-b7df-4072-a21e-eeaf5d4f0a1c)
 
 After getting the colour values, we use the blobs position in the screen to send bits to the main processor indicating if the blobs detected are green or red and if they are on the right, left or in the middle.
 We also use 1 bit to indicate if it is seeing the parking spot (looking for the pink colour).
+
 ![image-4](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/01a50bb5-30b4-47e4-b01a-9622dfa00204)
 
 Sending the bits to the main processor.
+
 ![image-5](https://github.com/ImSimao/S2024Future-Engeneers/assets/138500914/27db3bc9-0aad-4b0b-8cb9-a3b1d78d663e)
 
 
