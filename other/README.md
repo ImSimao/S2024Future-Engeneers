@@ -1,6 +1,3 @@
 # Other photos taken during the manufactoring process
 
-new board.jpg - when we changed boards due to issue in the previous board
-broken cable.jpg - some cable got broken, we had to soldier them back on
-interior.jpg - clear lookup of the interior of the robot
-everything back together.jpg - reassembly of the robot
+This board shows photos of the new board we put in the robot when we changed it due to a problem with the previous board and of the soldering of cables that broke and we had to fix. There's also a clear picture of the inside of the robot all together.
