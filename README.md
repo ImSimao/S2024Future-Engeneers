@@ -73,11 +73,19 @@ Sending the bits to the main processor.
 ## Mobility Management
 Our vehicle is equipped with four wheels, a motor and a differential, which connects the rear wheels. The front wheels are responsible for steering, controlled by a servo that allows the robot to turn left or right as required. The rear wheels connected to the differential was the configuration developed to solve a problem we faced, guaranteeing an even distribution of torque between the half shafts, enabling them to turn in opposite directions and have a different speed range.
 
+![Capturar 27](https://github.com/user-attachments/assets/ba04c7df-4164-48e9-babd-405599700743)
+
+
 ## Energy Management
 The robot is powered by four batteries, one of which is a separate power source dedicated specifically to the camera. This approach was implemented to avoid power failures in the camera that would compromise its functionality in distinguishing colours, a challenge we faced during the development of our vehicle.
 
+![Capturar 28](https://github.com/user-attachments/assets/7d3b1714-a4c9-4f65-8cc2-0b3961e5f446)
+
+
 ## Sensors Management
 We chose to use a camera to detect obstacles and the car park, equipping it with a lens that widens the field of view, which solved the difficulties in detecting two consecutive obstacles in a corner. In addition, we incorporated three infrared sensors (Sharp) on the front of the robot: one on each side and one in the centre, capable of measuring the distance to objects by emitting and receiving infrared light. To increase the robot's obstacle detection range, we also added a sonar sensor in the centre of the robot, which measures distances by emitting and receiving sound waves. To identify the colours of the blue and orange lines on the carpet, we used an RGB (red, green and blue) colour sensor, which allows the robot to determine the direction of the race and its position on the laps.
+
+
 
 ## Obstacle Management
 With regard to obstacle detection, the robot uses the camera with the magnifying lens to identify obstacles, as well as locating the walls of the car park. We have implemented a strategy that allows the robot to bypass obstacles as soon as it detects them, moving to the right if the obstacle is red and to the left if it is green.
