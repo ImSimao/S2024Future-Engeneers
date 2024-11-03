@@ -28,7 +28,7 @@ Autonomous driving is one of the most significant advances in modern engineering
 ## Materials used
 The structure of our robot is mostly manufactured using 3D printing or recycled components. For the printed parts, we start with prior planning that includes the shape and dimensions required. We then design the parts using the Tinkercad application and carry out a final visualisation in 3D visualisation software to ensure that the specifications meet our needs before printing. Regarding the parts we reuse, one example is the differential of a toy car, which we adapt to the needs of our robot by giving new life to components that would otherwise be discarded.
 
-![Capturar 26](https://github.com/user-attachments/assets/c813aead-fb27-4447-84ae-4cbcdf42a50d) ![Capturar 25](https://github.com/user-attachments/assets/abb0dea8-f127-4270-9709-1014c1b76dc8)
+![Capturar 26](https://github.com/user-attachments/assets/c813aead-fb27-4447-84ae-4cbcdf42a50d) ![Capturar 25](https://github.com/user-attachments/assets/fbdaa917-db30-451b-aa03-4a03fa7fe573)
 
 ## Robot Scheme
 ![esquema do robot](https://github.com/user-attachments/assets/b96c37f0-7cdc-4067-b64e-4a38f48c53ef)
