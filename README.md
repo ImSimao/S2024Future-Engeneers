@@ -77,5 +77,5 @@ We chose to use a camera to detect obstacles and the car park, equipping it with
 ## Obstacle Management
 With regard to obstacle detection, the robot uses the camera with the magnifying lens to identify obstacles, as well as locating the walls of the car park. We have implemented a strategy that allows the robot to bypass obstacles as soon as it detects them, moving to the right if the obstacle is red and to the left if it is green.
 
-## Conclusion
+# Conclusion
 Summarizing, our experience building and programming the robot for the World Robot Olympiad competition not only challenged us to apply theoretical knowledge to a practical project, but also strengthened the spirit of collaboration and innovation within our team. By integrating technologies such as 3D printing, programming in different languages and sensor management, we were able to create a robot capable of navigating autonomously, adapting to different scenarios. We went through several difficulties, some of which are described in this report, and managed to overcome them all, although with a lot of effort, this is a source of great pride.  We are excited to represent Portugal and look forward in applying everything we have learnt when preparing for this competition.
