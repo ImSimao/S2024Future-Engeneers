@@ -4,6 +4,9 @@
 ## Presentation of the AGSG Team
 We are the AGSG team, we are students and our name is Joana Silva, Simão Freire and Rafael Teodoro, under the guidance of our mentor Tiago Severino. We have the honour to represent Portugal in the World Robot Olympiad competition, in the Future Engineers category.
 
+![Official Team](https://github.com/user-attachments/assets/388b1cfa-7b0c-4c5d-9003-7b1120306ec6)
+
+
 ## Competition Challenge
 The main challenge in this category is to explore the fundamentals of autonomous driving by building a robot in the shape of a car. This robot must be able to navigate autonomously around a defined track, detecting and dodging obstacles, as well as adapting dynamically to the different conditions imposed during the competition.
 Autonomous driving is one of the most significant advances in modern engineering, with applications ranging from personal vehicles to public transport solutions. This challenge not only allows us to demonstrate our skills as a team, but also promotes a space for the exchange of ideas and collaborative learning, contributing to joint evolution in the field of engineering.
