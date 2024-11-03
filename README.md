@@ -1,20 +1,33 @@
-# Engineering materials
+# Team and competition
 
-This repository contains engineering materials of a self-driven vehicle from the team AGSG from Portugal in the WRO Future Engineers competition in the season 2024.
 
-## Content
+## Presentation of the AGSG Team
+We are the AGSG team, we are students and our name is Joana Silva, Simão Freire and Rafael Teodoro, under the guidance of our mentor Tiago Severino. We have the honour to represent Portugal in the World Robot Olympiad competition, in the Future Engineers category.
 
-- `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-- `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-- `video` contains the video.md file with the link to a video where driving demonstration exists
-- `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-- `src` contains code of control software for all components which were programmed to participate in the competition
-- `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
+## Competition Challenge
+The main challenge in this category is to explore the fundamentals of autonomous driving by building a robot in the shape of a car. This robot must be able to navigate autonomously around a defined track, detecting and dodging obstacles, as well as adapting dynamically to the different conditions imposed during the competition.
+Autonomous driving is one of the most significant advances in modern engineering, with applications ranging from personal vehicles to public transport solutions. This challenge not only allows us to demonstrate our skills as a team, but also promotes a space for the exchange of ideas and collaborative learning, contributing to joint evolution in the field of engineering.
+
+## Repository Content
 - `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+- `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+- `src` contains code of control software for all components which were programmed to participate in the competition.
+- `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members).
+- `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom).
+- `video` contains the video.md file with the link to a video where driving demonstration exists.
+- `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 
-## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+
+# Robot Description
+
+
+## Materials used
+The structure of our robot is mostly manufactured using 3D printing or recycled components. For the printed parts, we start with prior planning that includes the shape and dimensions required. We then design the parts using the Tinkercad application and carry out a final visualisation in 3D visualisation software to ensure that the specifications meet our needs before printing. Regarding the parts we reuse, one example is the differential of a toy car, which we adapt to the needs of our robot by giving new life to components that would otherwise be discarded.
+
+## Robot Scheme
+
+
 
 #### The Code
 
